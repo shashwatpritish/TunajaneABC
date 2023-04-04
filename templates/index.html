@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+
+{% block body %}
+<div class="container my-3">
+  <h1 class="d-flex justify-content-center">Welcome to TunajaneABC</h1>
+  <form method="POST" action="/">
+    {% csrf_token %}
+  <div class="mb-3">
+    <label for="word" class="form-label"></label>
+    <input placeholder="Don't have words! what about aplle" type="text" name="word" class="form-control" id="word" aria-describedby="emailHelp">
+  </div>
+  <button type="submit" class="btn btn-dark bg-dark bg-gradient">Submit</button>
+</form>  
+</div>
+
+<div class="container-sm">
+  <h1 class="bg-gradient fs-1 bg-dark text-light d-flex justify-content-center rounded-pill">{{ text }}</h1>
+</div>
+{% endblock %}
