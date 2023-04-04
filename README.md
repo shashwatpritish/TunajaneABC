@@ -39,9 +39,9 @@ To run this project you need to run these commands one by one
 ```
 ## Code and Language
 
- - [Django](https://www.djangoproject.com/)
- - [TailwindCSS](https://tailwindcss.com/)
- - [Textblob](https://textblob.readthedocs.io/en/dev/)
+ * [Django](https://www.djangoproject.com/)
+ * [TailwindCSS](https://tailwindcss.com/)
+ * [Textblob](https://textblob.readthedocs.io/en/dev/)
 
 
 ## Welcome to TunajaneABC
@@ -54,5 +54,6 @@ Correct your wrong spell words in the best way using TunajaneABC
 **Here is the basic demo of this app**
 
 ![Screenshot](demo.gif)
+
 
 # Thank You for Checking this repo
